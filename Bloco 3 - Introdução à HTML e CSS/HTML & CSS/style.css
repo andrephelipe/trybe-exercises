@@ -20,7 +20,8 @@ h1 {
 #cabecalho {
     /* border: 2px solid red;      */
     padding:10px 0 20px;
-    margin-bottom: 2px;  
+    margin-bottom: 2px;
+    margin-left: 70px;
 }
 
 .header {
@@ -39,13 +40,19 @@ h1 {
 }
 
 .header-container{
-    /* border: 2px solid red; */
-    width: 50%;
-    padding-left: 60px;
+    border: 2px solid blue;
+    width: 70%;
+    margin-top: 75px;
+    font-family: Montserrat, sans-serif;
 }
 
 .header-container p{
-    width: 80%;
+    width: 90%;
+}
+
+.header-container h1{
+    font-size: 50px;
+    width: 95%;
 }
 
 .img-trybe{
