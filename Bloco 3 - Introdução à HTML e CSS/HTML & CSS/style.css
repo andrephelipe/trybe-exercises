@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    
+    margin-top: 10px;
 }
 
 p, li {
@@ -17,6 +17,30 @@ h1 {
     color: #11a36a;
 }
 
+#cabecalho {
+    border: 2px solid red;     
+    padding:10px 0 20px;    
+}
+
+.header {
+    /* border-top: 50px solid yellow; */
+    /* border: 2px solid red; */
+    background-image: url(images/smiling-image.jpg);
+    background-size: cover; 
+    background-position: 50% 25%;
+    padding: 60px 40px 217px;    
+}
+
+.header-container{
+    /* border: 2px solid red; */
+    width: 50%;
+    padding-left: 60px;
+}
+
+.header-container p{
+    width: 80%;
+}
+
 .img-trybe{
     width: 130px;
 }
@@ -30,17 +54,12 @@ h1 {
     text-decoration: none;
     border-color: #11a36a;
     border-style: solid;
-    border-width: 2px;
+    border-width: 2px;    
 }
 
 #inscreva-se:hover{
     background-color: #11a36a;
     color: #ffffff;
-}
-
-
-#menu {
-    position: fixed;
 }
 
 .nomePessoas {
