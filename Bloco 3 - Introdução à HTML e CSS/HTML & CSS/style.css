@@ -26,25 +26,30 @@ h1 {
     margin-left: 70px;
 }
 
+.img-trybe{
+    width: 130px;
+}
+
 .header {
-    border: 2px solid rgb(255, 4, 213);    
+    /* border: 2px solid rgb(255, 4, 213);     */
     background-image: url(images/smiling-image.jpg);
     background-size: cover; 
     background-position:60px -85px;
-    padding: 85px 10px 87px;    
+    padding: 85px 10px 42px;    
 }
 
 .header-container{
-    border: 2px solid;
+    /* border: 2px solid; */
+    margin-left: 3%;
 }
 
 .header-container p{
     /* border: 2px solid blue; */
-    width: 40%;    
+    width: 46%;    
     margin-top: 60px;
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    margin-bottom: 60px;
+    font-size: 20px;
+    margin-bottom: 35px;
 }
 
 .header-container h1{
@@ -69,10 +74,6 @@ h1 {
     background-color: #178f61;
 }
 
-.img-trybe{
-    width: 130px;
-}
-
 .text-centered{
     /* border: 2px solid rgb(46, 0, 250); */
     text-align: center;
@@ -85,25 +86,29 @@ h1 {
     margin-bottom: 4rem;
 }
 
-#inscreva-se{
-    border-radius: 4px;
-    color: #11a36a;
-    background-color: #ffffff;
-    text-align: center;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-color: #11a36a;
-    border-style: solid;
-    border-width: 2px;    
+.fotoPerfil {
+    border-radius: 100%;
 }
 
-#inscreva-se:hover{
-    background-color: #11a36a;
-    color: #ffffff;
+.container-testemunhos{
+    border: 2px solid red;
+    width: 80%;
+    margin: auto;
 }
 
-.nomePessoas {
+#testemunho-individual{
+    border: 5px solid yellow;
+    width: 30%;
+    margin: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.depoiments {
     color: #11a36a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
 }
 
 .you {
@@ -113,17 +118,6 @@ h1 {
     font-weight: 600;
     text-align: center;    
 } 
-
-.fotoPerfil {
-    border-radius: 100%;
-}
-
-.depoiments {
-    color: #11a36a;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-}
 
 #botao {
     border-radius: 4px;
@@ -137,3 +131,5 @@ h1 {
 #botao:hover{
     background-color: #178f61;
 }
+
+/* 1:26 */
