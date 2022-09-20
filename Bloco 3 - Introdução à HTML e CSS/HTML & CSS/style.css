@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    /* margin-top: 10px; */
+    margin: 0;
     margin-top: 10px;
 }
 
@@ -14,45 +16,57 @@ h3 {
 }
 
 h1 {
-    color: #11a36a;
+    color: #0a7e51;
 }
 
 #cabecalho {
-    /* border: 2px solid red;      */
+    /* border: 2px solid #13ac76;      */
     padding:10px 0 20px;
     margin-bottom: 2px;
     margin-left: 70px;
 }
 
 .header {
-    /* border-top: 50px solid yellow; */
-    /* border: 2px solid red; */
+    border: 2px solid rgb(255, 4, 213);    
     background-image: url(images/smiling-image.jpg);
     background-size: cover; 
-    background-position: 50% 25%;
-    padding: 60px 40px 217px;    
-}
-
-.header p {
-    border: red solid 2px;
-    width: 10%;
-    font-size: 18px;
+    background-position:60px -85px;
+    padding: 85px 10px 87px;    
 }
 
 .header-container{
-    border: 2px solid blue;
-    width: 70%;
-    margin-top: 75px;
-    font-family: Montserrat, sans-serif;
+    border: 2px solid;
 }
 
 .header-container p{
-    width: 90%;
+    /* border: 2px solid blue; */
+    width: 40%;    
+    margin-top: 60px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin-bottom: 60px;
 }
 
 .header-container h1{
-    font-size: 50px;
-    width: 95%;
+    /* border: 2px solid red; */
+    font-size: 45px;
+    width: 50%;    
+}
+
+#botao-ps{
+    /* border: 2px solid blueviolet; */
+    border-radius: 4px;
+    color: #fff;
+    background-color: #11a36a;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;        
+    margin-left: 5%;
+        
+}
+
+#botao-ps:hover{
+    background-color: #178f61;
 }
 
 .img-trybe{
@@ -60,9 +74,10 @@ h1 {
 }
 
 .text-centered{
+    /* border: 2px solid rgb(46, 0, 250); */
     text-align: center;
     padding: 60px 20px 50px;
-    width: 70%;
+    width: 80%;
     margin: auto; 
 }
 
