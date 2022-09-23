@@ -49,13 +49,28 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // console.log(`No array numbers temos ${impar} impares`);
 
 //Utilizando for, descubra qual o menor valor contido no array e imprima-o;
-let menor = 0;
+// let menor = numbers[0];
 
-for (let index = 0; index < numbers.length; index++) {
-    for(i = 0; i < numbers.length; i++) {
-        if(numbers[index] < numbers[i]) {
-            menor = numbers[i]
-        }
-    }
+// for (let index = 0; index < numbers.length; index++) {
+//     if(numbers[index] < menor){
+//         menor = numbers[index]
+//     }
+// }
+
+// console.log(menor);
+
+//Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+let arr = [];
+
+for(i = 1; i <= 25; i++) {
+    arr.push(i)
+}
+
+// console.log(arr);
+
+//Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2
+
+for(i = 0; i < arr.length; i++) {
+    console.log(`A divisão de ${arr[i]} por 2 é: ` + arr[i] / 2);
 }
 
