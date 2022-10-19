@@ -52,7 +52,8 @@ const estudante2 = {
     html: 'muito bom',
     css: 'ruim',
     js: 'mara',
-    softSkill: 'bom'
+    softSkill: 'bom',
+    git: 'legal',
 }
 
 // primeiro a gente pega as chaves com o Object.keys e depois faz o for in pra pegar o index e achar os valores das chaves.
